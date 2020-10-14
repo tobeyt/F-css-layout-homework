@@ -18,3 +18,145 @@ ul {
   margin: 0;
   padding: 0;
 }
+
+nav {
+  height: 50px;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 0.9rem;
+  font-weight: bolder;
+}
+
+nav a {
+  text-decoration-line: none;
+  color: white;
+}
+
+main {
+  width: 100%;
+  margin-top: 1.3rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.aside-left {
+  flex-basis: 12%;
+  margin-left: 1.3rem;
+}
+
+.about,
+.archives {
+  padding: 1.2rem 1.4rem;
+  border-style: none;
+}
+
+.aside-title {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  font-style: italic;
+}
+
+.about {
+  background-color: lightgray;
+}
+
+.archives li {
+  color: purple;
+  text-decoration: underline;
+}
+
+.content {
+  flex-basis: 50%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.content-1 {
+  flex-basis: 47%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.content-2 {
+  flex-basis: 47%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+article {
+  flex-basis: 47%;
+  border: 1px solid gray;
+  margin-bottom: 10px;
+}
+
+.img {
+  background-color: gray;
+  width: 400px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.article {
+  padding: 5px 10px;
+}
+
+.article-title {
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+.aside-right {
+  flex-basis: 12.5%;
+  align-self: center;
+  padding: 20px;
+  background-color: lightgray;
+  margin-right: 5%;
+}
+
+.details {
+  color: deepskyblue;
+  font-size: 0.9rem;
+}
+
+.aside-right input {
+  display: block;
+  padding: 10px;
+}
+
+.checkbox {
+  display: flex;
+  justify-content: center;
+  padding: 10px 20px 10px 0;
+  font-size: 1.3rem;
+}
+
+span {
+  font-size: 0.7em;
+  font-weight: bold;
+}
+
+.button {
+  width: 70%;
+  border-style: hidden;
+  color: white;
+  background-color: blue;
+  margin-left: 20px;
+}
+
+footer {
+  margin-top: 5%;
+  padding: 15px;
+  background-color: lightgray;
+  text-align: center;
+  font-size: 0.9em;
+  color: gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
